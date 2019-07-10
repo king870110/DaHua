@@ -7,7 +7,7 @@ namespace DaHua
 {
     class class1_1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("輸入第1個數字A:");
             string a = Console.ReadLine();
@@ -15,6 +15,7 @@ namespace DaHua
             string operate = Console.ReadLine();
             Console.WriteLine("輸入第2個數字B:");
             string b = Console.ReadLine();
+
             if (operate == "+")
             {
                 Console.WriteLine(Convert.ToDouble(a) + Convert.ToDouble(b));
