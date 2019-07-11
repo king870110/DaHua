@@ -38,7 +38,7 @@ namespace DaHua.Class1
             }
             return result;
         }
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             //相對於1-1是更好的版本
             //try catch 可以避免輸入非數字的錯誤
