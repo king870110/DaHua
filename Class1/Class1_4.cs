@@ -7,6 +7,18 @@ namespace DaHua.Class1
 {
     class Class1_4
     {
+        static void Main(string[] args)
+        {
+            Operation oper;
+            //在痛一個類別可以不用寫Class1_4.create....
+            oper = Class1_4.createOperation("+");
+            oper.NumA = 1;
+            oper.NumB = 2;
+            double result = oper.GetResult();
+            Console.WriteLine(result);
+            Console.Write("Press key to continue...");
+            Console.ReadKey();
+        }
         public static Operation createOperation(string operate)
         {
             //宣告Operation物件
